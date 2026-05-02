@@ -1,0 +1,5 @@
+hub EDL933Hub
+shortLabel EDL933
+longLabel Escherichia coli O157:H7 str. EDL933 Custom Genome
+genomesFile genomes.txt
+email glinogi21@students.calvin.ac.id
