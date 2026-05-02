@@ -3,3 +3,4 @@ shortLabel GC Percent
 longLabel GC Percent
 type bigWig
 bigDataUrl https://raw.githubusercontent.com/glinogi21-oss/UCSC-file/main/EDL933.gc.bw
+visibility full
