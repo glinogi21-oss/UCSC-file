@@ -1,6 +1,6 @@
 track gcPercent
 shortLabel GC Percent
 longLabel GC Percent
-type gc5Base
+type bigWig
 visibility full
 bigDataUrl none
