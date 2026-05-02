@@ -1,0 +1,6 @@
+<html>
+<body>
+<h2>E. coli EDL933 Genome Hub</h2>
+<p>Custom genome assembly for UCSC Browser.</p>
+</body>
+</html>
