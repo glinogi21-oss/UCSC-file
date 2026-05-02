@@ -7,4 +7,4 @@ organism Escherichia coli
 defaultPos NZ_CP008957.1:1-5000
 orderKey 1
 scientificName Escherichia coli
-htmlPath description.html
+htmlPath https://raw.githubusercontent.com/glinogi21-oss/UCSC-file/main/descriptional.html
