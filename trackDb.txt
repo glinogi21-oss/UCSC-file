@@ -1,0 +1,6 @@
+track gcPercent
+shortLabel GC Percent
+longLabel GC Percent
+type gc5Base
+visibility full
+bigDataUrl none
