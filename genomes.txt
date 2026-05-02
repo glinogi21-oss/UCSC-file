@@ -1,10 +1,3 @@
 genome EDL933
 trackDb trackDb.txt
 twoBitPath https://raw.githubusercontent.com/glinogi21-oss/UCSC-file/main/EDL933.2bit
-groups groups.txt
-description Escherichia coli EDL933
-organism Escherichia coli
-defaultPos NZ_CP008957.1:1-5000
-orderKey 1
-scientificName Escherichia coli
-htmlPath https://raw.githubusercontent.com/glinogi21-oss/UCSC-file/main/descriptional.html
