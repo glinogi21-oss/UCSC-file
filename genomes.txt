@@ -1,6 +1,6 @@
 genome EDL933
 trackDb trackDb.txt
-twoBitPath https://raw.githubusercontent.com/glinogi21-oss/UCSC-file/main/EDL933.2bit
+twoBitPath https://hgdownload.soe.ucsc.edu/gbdb/esi/esi4/esi4.2bit
 organism Escherichia coli O157:H7
-description E. coli EDL933 (AE005174.2)
-defaultPos AE005174.2:1-10000
+description E. coli EDL933 (NC_002655.2)
+defaultPos NC_002655.2:1-10000
