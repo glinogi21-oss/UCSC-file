@@ -1,7 +1,42 @@
-track gcPercent
-shortLabel GC Percent
-longLabel GC Percent
+track RNAseq
+container multiWig
+shortLabel RNA-seq
+longLabel RNA-seq Expression (Control vs Treated)
 type bigWig
-bigDataUrl https://raw.githubusercontent.com/glinogi21-oss/UCSC-file/main/EDL933.gc.bw
 visibility full
-html gcPercent.html
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale on
+maxHeightPixels 100:50:20
+
+    track control1
+    parent RNAseq
+    shortLabel Ctrl1
+    longLabel Control Replicate 1
+    type bigWig
+    bigDataUrl https://raw.githubusercontent.com/glinogi21-oss/UCSC-file/main/control_1.bw
+    color 0,0,255
+
+    track control2
+    parent RNAseq
+    shortLabel Ctrl2
+    longLabel Control Replicate 2
+    type bigWig
+    bigDataUrl https://raw.githubusercontent.com/glinogi21-oss/UCSC-file/main/control_2.bw
+    color 0,0,200
+
+    track treated1
+    parent RNAseq
+    shortLabel Trt1
+    longLabel Treated Replicate 1
+    type bigWig
+    bigDataUrl https://raw.githubusercontent.com/glinogi21-oss/UCSC-file/main/treated_1.bw
+    color 255,0,0
+
+    track treated2
+    parent RNAseq
+    shortLabel Trt2
+    longLabel Treated Replicate 2
+    type bigWig
+    bigDataUrl https://raw.githubusercontent.com/glinogi21-oss/UCSC-file/main/treated_2.bw
+    color 200,0,0
