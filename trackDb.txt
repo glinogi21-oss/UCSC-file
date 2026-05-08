@@ -1,6 +1,7 @@
 track genes
 type bigBed 12
 shortLabel Genes
-longLabel Gene annotation (EDL933)
+longLabel Gene Annotation
 visibility pack
 bigDataUrl https://raw.githubusercontent.com/glinogi21-oss/UCSC-file/main/genes.bb
+searchIndex name
